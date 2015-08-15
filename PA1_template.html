@@ -128,7 +128,7 @@ meanStepsPerDay</code></pre>
 <pre class="r"><code>medianStepsPerDay &lt;- median(totalStepsPerDay$steps)
 medianStepsPerDay</code></pre>
 <pre><code>## [1] 10766</code></pre>
-<p><strong>Mean Steps Per Day</strong>: <code>10767</code><br /><strong>Median Steps Per Day</strong>: <code>10766</code></p>
+<p><strong>Mean Steps Per Day</strong>: <code>10767.19</code><br /><strong>Median Steps Per Day</strong>: <code>10766.00</code></p>
 </div>
 <div id="what-is-the-average-daily-activity-pattern" class="section level2">
 <h2>What is the average daily activity pattern?</h2>
@@ -193,13 +193,13 @@ meanImputedStepsPerDay</code></pre>
 <pre class="r"><code>medianImputedStepsPerDay &lt;- median(totalImputedStepsPerDay$steps)
 medianImputedStepsPerDay</code></pre>
 <pre><code>## [1] 10766.19</code></pre>
-<p><strong>Mean Steps Per Day</strong>: <code>10766</code><br /><strong>Median Steps Per Day</strong>: <code>1.0766189\times 10^{4}</code></p>
+<p><strong>Mean Steps Per Day</strong>: <code>10766.19</code><br /><strong>Median Steps Per Day</strong>: <code>10766.19</code></p>
 <ol start="6" style="list-style-type: decimal">
 <li>Do these values differ from the estimates from the first part of the assignment? What is the impact of imputing missing data on the estimates of the total daily number of steps?</li>
 </ol>
-<p>The difference of the imputed mean value from the estimates from the first part of the assignment is <code>meanStepsPerDay - meanImputedStepsPerDay</code> = <code>1</code></p>
-<p>The difference of the imputed median value from the estimates from the first part of the assignment is <code>medianStepsPerDay - medianImputedStepsPerDay</code> = <code>-0.19</code></p>
-<p>Looking at the above values, there isn’t significant difference between these estimates from the first part where we excluded the missing values.</p>
+<p>The difference of the imputed mean value from the estimates from the first part of the assignment is <strong><code>meanStepsPerDay - meanImputedStepsPerDay</code> = <code>1.00</code></strong></p>
+<p>The difference of the imputed median value from the estimates from the first part of the assignment is <strong><code>medianStepsPerDay - medianImputedStepsPerDay</code> = <code>-0.19</code></strong></p>
+<p>Looking at the above values, <strong>there isn’t significant difference</strong> between these estimates from the first part where we excluded the missing values.</p>
 </div>
 <div id="are-there-differences-in-activity-patterns-between-weekdays-and-weekends" class="section level2">
 <h2>Are there differences in activity patterns between weekdays and weekends?</h2>

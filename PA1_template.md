@@ -101,8 +101,8 @@ medianStepsPerDay
 ```
 ## [1] 10766
 ```
-**Mean Steps Per Day**: ``10767``  
-**Median Steps Per Day**: ``10766``
+**Mean Steps Per Day**: ``10767.19``  
+**Median Steps Per Day**: ``10766.00``
 
 ## What is the average daily activity pattern?
 1. Time series plot (i.e. type = "l") of the 5-minute interval (x-axis) and the average number of steps taken, averaged across all days (y-axis)
@@ -197,16 +197,16 @@ medianImputedStepsPerDay
 ## [1] 10766.19
 ```
 
-**Mean Steps Per Day**: ``10766``  
-**Median Steps Per Day**: ``1.0766189\times 10^{4}``
+**Mean Steps Per Day**: ``10766.19``  
+**Median Steps Per Day**: ``10766.19``
 
 6. Do these values differ from the estimates from the first part of the assignment? What is the impact of imputing missing data on the estimates of the total daily number of steps?
 
-The difference of the imputed mean value from the estimates from the first part of the assignment is ```meanStepsPerDay - meanImputedStepsPerDay``` = ``1``
+The difference of the imputed mean value from the estimates from the first part of the assignment is **```meanStepsPerDay - meanImputedStepsPerDay``` = ``1.00``**
 
-The difference of the imputed median value from the estimates from the first part of the assignment is ```medianStepsPerDay - medianImputedStepsPerDay``` = ``-0.19``
+The difference of the imputed median value from the estimates from the first part of the assignment is **```medianStepsPerDay - medianImputedStepsPerDay``` = ``-0.19``**
 
-Looking at the above values, there isn't significant difference between these estimates from the first part where we excluded the missing values.
+Looking at the above values, **there isn't significant difference** between these estimates from the first part where we excluded the missing values.
 
 ## Are there differences in activity patterns between weekdays and weekends?
 1. Create a new factor variable in the dataset with two levels – “weekday” and “weekend” indicating whether a given date is a weekday or weekend day.
